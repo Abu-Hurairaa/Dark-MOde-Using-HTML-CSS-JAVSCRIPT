@@ -260,9 +260,9 @@ modeBtn.addEventListener("mouseover", ()=>{
         current="dark";
         document.querySelector("body").style.backgroundColor="black";
         document.querySelector("button").innerText="Dark";
-        document.querySelector("p").tyle.color="white";
+        document.querySelector("p").style.color="white";
     }
-    else{
+    else {
         current="light";
         document.querySelector("body").style.backgroundColor="white";
         document.querySelector("button").innerText="Light";
